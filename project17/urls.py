@@ -21,5 +21,7 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('country/',country,name='country'),
-    path('capital/',capital,name='capital')
+    path('capital/',capital,name='capital'),
+    path('insert_country/',insert_country,name='insert_country'),
+    path('insert_capital/',insert_capital,name='insert_capital'),
 ]
